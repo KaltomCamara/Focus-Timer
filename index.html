@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/favicon.sgv" type="image/x-svg">
-    <title>Document</title>
+    <meta name="description" content="Temporizador estilo pomodoro">
+    <title>Focus Timer</title>
+
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-svg">
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <script src="./src/main.js" defer type="module"></script>
@@ -25,7 +27,7 @@
             <button data-action="toggleRunning" class="ph ph-play-circle">
                 <span class="sr-only">Iniciar contador</span>
             </button>
-            <button data-action="stop" class="ph ph-pause-circle">
+            <button data-action="toggleRunning" class="ph ph-pause-circle">
                 <span class="sr-only">Pausar contador</span>
             </button>
             <button data-action="set" class="ph ph-timer secondary">
